@@ -1,0 +1,143 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/mg2.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 0; 
+    height: 100vh;
+}
+
+body::-webkit-scrollbar {
+    width: 0;
+}
+
+#prinsipal {
+    width: 36.125rem;
+    height: 36.625rem;
+    flex-shrink: 0;
+    border-radius: 3.125rem;
+    background: #FFF;
+    opacity: 0.5; 
+}
+
+#titulo {
+    width: 18.1875rem;
+    padding: 6.25rem 9rem 0rem 9rem;
+    color: #181818;
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 0.27rem;
+
+}
+
+#formulari {
+    margin: 3rem 2.19rem 2.25rem 2.56rem;
+
+}
+
+label {
+    display: block;
+    margin: 1rem;
+    width: 100%;
+}
+
+#Usuario {
+    align-self: stretch;
+    color: rgba(26, 23, 23, 0.38);
+    font-family: Inter;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    width: 31.375rem;
+    height: 2rem;
+    border: none;
+    border-bottom: 1px solid #000;
+
+
+}
+
+#contrasena {
+    color: rgba(26, 23, 23, 0.38);
+    font-family: Inter;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 31.375rem;
+    height: 2rem;
+    display: flex;
+    border: none;
+    border-bottom: 1px solid #000;
+}
+
+#botton1 {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0 0 0;
+    width: 31.375rem;
+    height: 3rem;
+    padding: 0.625rem;
+    gap: 0.625rem;
+    flex-shrink: 0;
+    border-radius: 0.5rem;
+    background: #279574;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border: none;
+
+}
+
+#botton2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+    width: 31.375rem;
+    height: 3rem;
+    padding: 0.625rem;
+    border-radius: 0.5rem;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    background: #FFF;
+    cursor: pointer;
+}
+
+.boton-google i {
+    margin-left: 0.625rem;
+}
+
+.boton-google i {
+    font-size: 1.25rem;
+    color: #511f1f;
+}
+
+#botton2:hover {
+    background-color: #f0f0f0;
+}
+
+a {
+    color: rgba(0, 0, 0, 0.12);
+    text-align: center;
+    font-family: Inter;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color: #54BEB8;
+    font-family: Inter;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 10rem;
+}

@@ -1,0 +1,34 @@
+body {
+  display: inline-flex;
+  padding: 1.5625rem 8.1875rem 2.375rem 9.5625rem;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: black;
+}
+/* Estilos para los elementos <article> */
+article.posicion {
+  flex: 1; /* Distribuye el espacio de manera igual entre los elementos */
+  margin: 10px; /* Margen entre los elementos <article> */
+}
+
+/* Estilos para el elemento <main> que contiene los <article> */
+#principal1 {
+  display: flex;
+  justify-content: space-between; /* Distribuye los elementos <article> en el espacio disponible */
+  flex-wrap: wrap; /* Permite que los elementos <article> se envuelvan si no caben en una sola fila */
+  width: 60.6875rem;
+  height: 53.25rem;
+  flex-shrink: 0;
+  background-color: white; /* Opcional: Establecer un fondo blanco en el elemento <main> */
+  color: black; /* Opcional: Establecer el color del texto en negro en el elemento <main> */
+}
+
+#medio img {
+  width: 5rem; /* Establece el ancho deseado en rem para las imágenes */
+  height: auto; /* Mantiene la proporción original de la imagen */
+  margin-right: 1rem; /* Agrega un margen derecho en rem entre las imágenes (ajusta según sea necesario) */
+}
+figure{
+  margin: 0;
+  display: inline-block; /* Alinea las imágenes en línea */
+}
